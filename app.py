@@ -76,7 +76,7 @@ st.markdown("""
 st.markdown('<h1 class="title">📰 Newsly</h1>', unsafe_allow_html=True)
 st.markdown(
     '<p class="description">'
-    'Your AI-powered personal news curator. '
+    'Stay updated with the latest news. '
     'Choose a topic and language to get concise, readable news summaries instantly.'
     '</p>',
     unsafe_allow_html=True
@@ -108,7 +108,7 @@ language_map = {
 # ================= ACTION BUTTON =================
 if st.button("Get News"):
 
-    st.info("Fetching latest news articles...")
+    st.info("Fetching latest news articles...Please wait")
 
     lang = language_map[language]
 
@@ -177,3 +177,4 @@ st.markdown(
     ''',
     unsafe_allow_html=True
 )
+
