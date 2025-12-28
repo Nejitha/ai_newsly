@@ -45,19 +45,27 @@ News Source: Google News RSS
 
 Language Parsing: feedparser
 
-Deployment: Streamlit Cloud
+Deployment: Render
+
+
 
 # ☁️ Deployment
 
-This project is deployed using Streamlit Cloud.
+This project is deployed using Render, which keeps the app always online.
+
+## Live demo
+
+Try Newsly live  here
+
+[Click here to view ...](https://ai-newsly.onrender.com)
 
 Steps:
 
 1)Push code to GitHub
 
-2)Connect repository on Streamlit Cloud
+2)Connect repository on Render.
 
-3)Set OPENAI_API_KEY in Streamlit Secrets
+3)Set OPENAI_API_KEY in Render Environment Variables.
 
 4)Deploy 🚀
 
